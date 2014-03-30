@@ -14,6 +14,7 @@ public class CourseraParser implements MOOCParser {
 
 	@Override
 	public String getProfImage(Document doc) {
+		// Change in the origin test
 		// TODO Auto-generated method stub
 		return null;
 	}
