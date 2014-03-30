@@ -4,6 +4,14 @@ import java.util.Date;
 
 import org.jsoup.nodes.Document;
 
+/**
+ * Interface for MOOC website parser.
+ * Each method takes a single course pages,
+ * and returns a data in the required data type.
+ * 
+ * @author develover
+ *
+ */
 public interface MOOCParser {
 	//for table "coursedetails"
 	public String getProfName(Document doc);
