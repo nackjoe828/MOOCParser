@@ -8,14 +8,12 @@ public class CourseraParser implements MOOCParser {
 
 	@Override
 	public String getProfName(Document doc) {
-		// Testing Pull request.
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public String getProfImage(Document doc) {
-		// Change in the origin test
 		// TODO Auto-generated method stub
 		return null;
 	}

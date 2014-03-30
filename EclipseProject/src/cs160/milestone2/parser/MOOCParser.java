@@ -5,8 +5,6 @@ import java.util.Date;
 import org.jsoup.nodes.Document;
 
 public interface MOOCParser {
-	//fork origin forwarding test
-	
 	//for table "coursedetails"
 	public String getProfName(Document doc);
 	public String getProfImage(Document doc);
