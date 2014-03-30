@@ -9,7 +9,7 @@ public class CourseraParser implements MOOCParser {
 	@Override
 	public String getProfName(Document doc) {
 		// TODO Auto-generated method stub
-		return null;
+		return "pull request test";
 	}
 
 	@Override
