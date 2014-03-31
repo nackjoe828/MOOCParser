@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="jsoup-1.7.3.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Macintosh HDD/Users/developer/Documents/Developer&apos;s Tool/jsoup-1.7.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
