@@ -1,4 +1,4 @@
-package cs160.milestone2.parser;
+package cs160.milestone2.parser.coursera;
 
 import java.util.Date;
 
