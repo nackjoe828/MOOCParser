@@ -1,3 +1,5 @@
+package cs160.milestone2.parser.iversity;
+
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Date;
