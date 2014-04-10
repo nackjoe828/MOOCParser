@@ -4,41 +4,45 @@ import json
 import urllib
 import datetime
 import time    
+import MySQLdb
 
 
 jsonurl = urllib.urlopen('https://www.coursera.org/maestro/api/topic/list2')
 data = json.load(jsonurl)
 
 """
-for `coursedetails`:
+for 'coursedetails':
 {
-  `id` 
-  `profname`  //multiple professors????
-  `profimage` (link?)
-  `course_id (as an int)
+  'id' 
+  'profname'  //multiple professors????
+  'profimage' (link?)
+  'course_id (as an int)
 }
 
 
-for `course_data`:
+for 'course_data':
 { 
-  `id` (primary key, used to join coursedetails) //course_info (id)
-  `title`   //topic_info (full name)
-  `short_desc` //topic_info
-  `long_desc` //need api call using short name from topic_info
-  `course_link` //course_info (home_link)
-  `video_link` 
-  `start_date` //course_info (start_month, start_day, start_year)
-  `course_length` (int) //course_info (duration)
-  `course_image` (text) //topics_info (large_icon)
-  `category` //topic_info (cats[])
-  `site` 
-  `course_fee` 
-  `language` //topic_info (language)
-  `certificate` (yes/no) //course_info (signature_track_registration_open -boolean value)
-  `university`  //uni_info
-  `time_scraped` 
+  'id' (primary key, used to join coursedetails) //course_info (id)
+  'title'   //topic_info (full name)
+  'short_desc' //topic_info
+  'long_desc' //need api call using short name from topic_info
+  'course_link' //course_info (home_link)
+  'video_link' 
+  'start_date' //course_info (start_month, start_day, start_year)
+  'course_length' (int) //course_info (duration)
+  'course_image' (text) //topics_info (large_icon)
+  'category' //topic_info (cats[])
+  'site' 
+  'course_fee' 
+  'language' //topic_info (language)
+  'certificate' (yes/no) //course_info (signature_track_registration_open -boolean value)
+  'university'  //uni_info
+  'time_scraped' 
 }
 """
+db = MySQLdb.connect("192.168.0.91", "root", "arctura", "moocs160")
+
+cursor = db.cursor()
 
 course_details = {}
 course_data = {}
@@ -65,25 +69,30 @@ uni_info = {}
 #generate id -uni name pairs
 for uni in unis:
     uni_info[uni['id']] = uni['name']
-
+id_counter = 0
 for course in courses:
     #course_data##########################################################################
     course_id = course['id']
-    title = topics[str(course["topic_id"])]['name']
-    short_desc = topics[str(course["topic_id"])]['short_description']
+    title = str(MySQLdb.escape_string(topics[str(course["topic_id"])]['name'].encode('ascii', 'ignore')))
+    short_desc = str(MySQLdb.escape_string(topics[str(course["topic_id"])]['short_description'].encode('ascii', 'ignore')))
 
     short_name = topics[str(course["topic_id"])]['short_name']
     url = urllib.urlopen('https://www.coursera.org/maestro/api/topic/information?topic-id=' + short_name)
     content = json.load(url)
-    long_desc = content['about_the_course']
+    long_desc = (content['about_the_course']).encode('ascii', 'ignore')
+    long_desc = str(MySQLdb.escape_string(long_desc))
 
-    course_link = course['home_link']
+    course_link = str(course['home_link'])
     video_link = topics[str(course["topic_id"])]['video_baseurl'] + 'full/540p/index.webm'
     start_date = ''
     if course['start_year'] is not None and course['start_month'] is not None and course['start_day'] is not None:
         date = datetime.datetime(course['start_year'], course['start_month'], course['start_day'])
         start_date = '{:%Y-%m-%d}'.format(date)
-    course_length = course['duration_string'] #needs to be converted into int
+    duration = course['duration_string'] #needs to be converted into int
+    if duration:
+        course_length = int(''.join(x for x in duration if x.isdigit()))
+    else:
+        course_length = 0
     course_image = topics[str(course["topic_id"])]['large_icon']
     categories = []
     if 'cats' in topics[str(course["topic_id"])]:
@@ -104,28 +113,22 @@ for course in courses:
     content = json.load(url)
     if content:
         profimage = [professor['photo'] for professor in content]
-    #course_id is same as above
+    #course_id is same as 
 
-    output = "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (course_id, title, short_desc, long_desc, course_link, video_link, start_date, course_length,course_image, categories, site, course_fee, language, certificate, universities, time_scraped,instructors, profimage)
-    print output
-"""
-    print "Course ID: ", course_id
-    print "Title: ", title
-    print "Short desc: ", short_desc
-    print "Long desc: ", long_desc
-    print "Course link: ", course_link
-    print "Video link: ", video_link
-    print "Start date: ", start_date
-    print "Course length: ", course_length
-    print "Course image: ", course_image
-    print "Categories: ", categories
-    print "Site: ", site
-    print "Course fee: ", course_fee
-    print "Language: ", language
-    print "Certificate offered: ", certificate
-    print "Universities: ", universities
-    print "Time scraped: ", time_scraped
-    print "Professor(s): ", instructors
-    print "Professor image(s): ", profimage
-"""
+    coursera_data = "INSERT INTO course_data VALUES (0, '%s', '%s', '%s', '%s', '%s', '%s', %d, '%s', '%s', '%s', %d, '%s', '%s', '%s', '%s')" % (title, short_desc, long_desc, course_link, video_link, start_date, course_length, course_image, ' '.join(categories), site, course_fee, language, certificate, ' '.join(universities), time_scraped)
 
+    cursor.execute(coursera_data)
+    db.commit()
+    cur_id = "SELECT id from course_data order by id desc" #get latest added id
+    cursor.execute(cur_id)
+    results = cursor.fetchall()
+
+    for pair in zip(instructors, profimage):
+        prof_name = str(MySQLdb.escape_string(pair[0].encode('ascii', 'ignore')))
+        prof_image = str(MySQLdb.escape_string(pair[1].encode('ascii', 'ignore')))
+        courseradetails = "INSERT INTO coursedetails VALUES (%d, '%s', '%s', %d)" % (id_counter, prof_name, prof_image, results[0][0])
+        cursor.execute(courseradetails)
+        db.commit()
+        id_counter += 1
+
+db.close()
