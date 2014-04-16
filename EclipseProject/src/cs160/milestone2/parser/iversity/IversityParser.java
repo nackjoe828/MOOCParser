@@ -239,10 +239,6 @@ class Database
 		InstantiationException, IllegalAccessException, ClassNotFoundException
 	{
 		this();
-
-		//execute each line of sql file
-		new ScriptRunner(connection, false, true).runScript(new FileReader(
-			new File(sqlfile)));
 	}
 
 	/**
