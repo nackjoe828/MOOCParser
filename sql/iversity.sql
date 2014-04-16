@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 05, 2014 at 07:29 AM
+-- Generation Time: Apr 05, 2014 at 07:00 AM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -85,6 +85,165 @@ INSERT INTO `course_data` (`id`, `title`, `short_desc`, `long_desc`, `course_lin
 (93, 'Mathe-MOOC: Mathematisch denken!', 'Methodisch ausgefeilter Doppel-MOOC mit Geometrie und Arithmetik. Du möchtest mathematisch denken lernen? Sei Kiebitz, Anpacker oder Formalisierer: Du hast die Wahl!', 'Mathematik: das ist Freude am Denken! Und mathematisch denken kann jeder! Das bedeutet nämlich: Die eigene Vorstellungskraft entwickeln. Lösungen oder Lösungsideen sehen. Mit Vorstellungsobjekten gedanklich handeln. Abstrakte Strukturen visualisieren. Sachverhalte mathematisch präzise beschreiben. Sich vergewissern, dass eine Behauptung stimmt. Systematisch vorgehen. Im Prinzip kann hier jede/r ein paar Schritte damit weiterkommen. In diesem Kurs wird deutlich, dass Mathematik eine Philosophie des Denkens ist. Wer an diesem Kurs teilnimmt, erhält seine regelmäßige Dosis an meditativen Denkaufgaben, spannenden Knobeleien und mathematischen Einsichten. Die mathematischen Denkweisen erarbeiten wir uns gemeinsam in zwei Inhaltsgebieten: Arithmetik und Geometrie. Zahl und Operation, Raum und Form: Das sind die Umgebungen, in denen wir uns tummeln werden. Wir werden geometrische Figuren analysieren und mit Zahlen jonglieren. Satz des Pythagoras, Satz des Euklid: Wir werden mathematische Gesetzmäßgikeiten gemeinsam finden und beweisen. Anschaulich und formal. Mathematik wird oft missverstanden als das Anwenden von Verfahren und das Auswendiglernen von Formeln. Das ist nicht Mathematik! Wie man Mathematik wirklich treibt, wie Mathematikerinnen und Mathematiker denken: das lernt man in diesem Kurs. Wir erforschen mathematische Sachverhalte und systematisieren diese, wir definieren Begriffe, wir stellen Vermutungen auf und beweisen diese, und wir verwenden unterschiedliche Darstellungen, um über mathematische Erkenntnisse zu sprechen. Am 14. April geht es los - melde dich an! Überblick über das Kursprogramm: Im ersten Kursblock werden wir uns mit folgenden Fragen befassen: Wie definiert man mathematische Begriffe? Wie findet man eigentlich mathematische Gesetzmäßigkeiten? Und wie beweist man diese? Welche Rolle spielen Annahmen in der Mathematik? Wie baut sich das Gebäude der Mathematik aus Definitionen, Annahmen und Gesetzmäßgikeiten auf? Fragen über Fragen, denen wir uns mit zahlreichen Experimenten widmen. Im zweiten Kursblock werden wir die Denk- und Arbeitsweisen aus dem ersten Block in verschiedenen Gebieten anwenden und dadurch festigen. In der Geometrie werden wir uns mit der Tätigkeit des Messens und dem Abstandsbegriff, mit Strecken, Halbgeraden und Geraden, mit Ebenen und Halbenenen und mit Winkeln befassen. In der Arithmetik schauen wir uns den Begriff der Teilbarkeit näher an, veranschaulichen Begriffe wie "größter gemeinsamer Teiler" und "kleinstes gemeinsames Vielfaches", untersuchen Primzahlen und Primfaktorzerlegungen und experimentieren mit Stellenwertsystemen. Im dritten Kursblock befassen wir uns mit grundlegenden mathematischen Konzepten: Was sind Mengen, Relationen und Funktionen? Auch hier werden wir uns den Begriffen und ihren Zusammenhängen mit grundlegenden mathematischen Denk- und Arbeitsweisen nähern. Experimentieren, erforschen, untersuchen, ergründen, Vermutungen anstellen, Vermutungen verwerfen, Vermutungen beweisen. Im vierten und letzten Kursblock machen wir uns noch einmal an zentrale Gesetzmäßigkeiten der Mathematik. Wie findet man solche Gesetzmäßgikeiten, und wie beweist man sie? In der Geometrie schauen wir uns schicke Sätze am Kreis an, in der Arithmetik nicht weniger schicke Sätze der Zahlentheorie. Mathematik pur, Mathematik anschaulich, Mathematik handgemacht. Empfohlene Vorkenntnisse: Jede/r kann mitmachen, der mathematische Vorkenntnisse aus dem Gymnasium mitbringt. Und wenn Du nicht auf dem Gymnasium warst, aber gerne mitmachen möchtest: Dann trau dich! Man sollte natürlich schon mal mit Geometrie und Algebra zu tun gehabt haben. Vieles wird dann wieder aufgefrischt, denn wir machen dann nicht auf dem Niveau der 12. oder 13. Klasse weiter, sondern bauen die Teilgebiete, in denen wir arbeiten, noch einmal grundlegend auf. Oberstufenwissen zu Analysis und Linearer Algebra ist nicht notwendig! Zielgruppen: Jeder an Mathematik interessierte Mensch kann mitmachen. Außerdem werden unsere Lehramtsstudierenden an der PH Heidelberg am MOOC teilnehmen. Der Kurs richtet sich also auch an alle Studierende des Lehramts Mathematik und an alle Mathelehrerinnen und Mathelehrer. Du unterrichtest Mathematik in der Grundschule und hast niemals Mathematik studiert? Dann bist Du hier richtig! Wir werden unser gesamtes didaktisches Know-How einsetzen. In dem Kurs kannst du also nicht nur mathematisch denken lernen, sondern auch "am eigenen Leib" erfahren, wie man Mathematik lernt und lehrt. Welcher Mitmach-Typ bist Du? Du kannst dich entscheiden, wie aktiv Du dich in den Kurs einbringen möchtest - je nach Interesse und Ehrgeiz! 1) Kiebitze wollen "nur mal gucken" oder mit dem mathematischen Denken erst einmal warm werden. Kiebitze schnuppern jede Woche in den Kurs, schauen sich eins, zwei Videos an und stöbern vielleicht einmal in den weiterführenden Bereichen. Hierdurch bekommen sie einen Einblick, was mathematisches Denken bedeutet, und sie erhalten Impulse, wo man Mathematik auch im Alltag findet und gebrauchen kann. Vielleicht bekommen sie dabei sogar Lust auf mehr! Aufwand: ca. 1-2 Stunden pro Woche 2) Anpacker legen Hand an und erforschen aktiv Mathematik, haben aber keine rechte Lust auf zu viele Formeln. Für Anpacker heißt es: Ärmel hochkrempeln! Im MOOC lernen sie, wie man mathematische Situationen systematisch erforscht, wie man anschauliche Begründungen für mathematische Gesetzmäßgikeiten finden kann, und sie erhalten einen Einblick darin, wie man Abstraktes konkretisiert (und umgekehrt). Sie entwickeln ihre Vorstellungskraft zur Lösung mathematischer Probleme weiter und lernen, Vermutungen anhand konkreter Modelle zu untersuchen. Aufwand: ca. 3-4 Stunden pro Woche 3) Formalisierer geben sich mit der Anschauung nicht zufrieden - sie wollen Formeln sehen! Formalisierer sind Anpacker, die zusätzlich auch noch das Spiel mit abstrakter Symbolsprache lieben. Sie lernen, formale Definitionen zu fassen und formale Beweise zu führen. Natürlich immer basierend auf tragfähigen Vorstellungen, die sie mit den Anpackern teilen! Aufwand: ca. 7-8 Stunden pro Woche Du möchtest ein Kiebitz in der Arithmetik sein, aber ein Anpacker in der Geometrie? Oder ein Formalisierer in der Arithmetik, aber ein Kiebitz in der Geometrie? Kein Problem - alles ist möglich! So kannst Du deinen individuellen Aufwand selbst wählen und dir diejenigen Inhalte zusammenstellen, die dich interessieren. Nicht schauen, sondern machen! - Das Kursformat: Das Grundkonzept des Kurses ist nicht "schauen", sondern "machen". Wir machen Mitmach-Mathematik. Daher gibt es nicht nur Videos, sondern jede Menge interaktive Materialien zum Erforschen von Mathematik, spannende Aufgaben, die einen packen und nicht mehr loslassen, und eine Vielzahl an Möglichkeiten, sich mit anderen Menschen über ihre mathematischen Erfahrungen auszutauschen. FAQ: Was um alles in der Welt ist ein MOOC? Ein MOOC ist ein "Massive Open Online Course", ein Online-Kurs mit einer sehr großen Teilnehmerzahl. Wir haben einen von zehn MOOC-Fellowships des Stifterverbandes in Kooperation mit iversity gewonnen und starten unseren Mathe-MOOC im Oktober diesen Jahres. Also ist der MOOC so etwas wie Online-Mathe-Nachhilfe? Nein, der MOOC ist keine Mathe-Nachhilfe, kein Mathe-Schnellkurs und kein Mathe-Repetitorium. Hier gibt es keine schnellen Rezepte. Wir machen Mathematik auf eine vielleicht ungewohnte und unerwarterte Art, mit der man Schritt für Schritt zu mehr mathematischem Verständnis kommt. Du wirst es erleben - lass dich überraschen! Gibt es irgendwo ein Beispiel? Wir haben ein Beispielkapitel erstellt, anhand dessen man sich schon einmal einen Eindruck verschaffen kann: The Secret of Pythagoras ist unter http://testkapitel.mathemooc.de abrufbar. Dort kannst du dich auch schon beteiligen, eigene Lösungsideen und Lösungen posten und uns Feedback geben! Ist die Teilnahme kostenlos? Die Teilnahme am Mathe-MOOC ist kostenlos und für jeden offen. In welchem Zeitraum findet der MOOC statt? Wir beginnen am 14. April 2014, und der MOOC wird bis Mitte Februar gehen. Jede Woche werden neue Kapitel zur Verfügung gestellt, mit denen du dich innerhalb der Woche (und darüber hinaus) beschäftigen kannst. Mit einer kleinen Weihnachtspause werden das insgesamt ca. 15 Wochen sein. Bekomme ich nach dem Kurs eine Bescheinigung für die erfolgreiche Teilnahme? Ja. Lernende, die den Kurs abschließen, bekommen eine Bescheinigung für die erfolgreiche Teilnahme, signiert von den beiden Dozenten. Unter welcher Lizenz stehen die Mathe-MOOC-Videos und Materialien? Alle Materialien stellen wir unter eine freie Lizenz: Creative Commons CC-BY-NC-SA: http://creativecommons.org/licenses/by-nc-sa/3.0/de/ Welche Mittel brauche ich, um teilzunehmen? Eigentlich nur das Internet und einen Webbrowser, der auch Java kann. Falls Du dir nicht sicher bist, ob Du alle Voraussetzungen erfüllst: Mach trotzdem mit. Falls technische Probleme auftauchen, werden wir eine Möglichkeit bieten, sich Hilfe zu holen. Alles andere ist "nice-to-have", aber kein Muss: ein Drucker, um sich Arbeitsmaterialien ausdrucken zu können; Schere, Karton, Stifte und Kleber, um Mathematik zu basteln; ein digitaler Fotoapparat oder ein Smartphone, um Fotos zu machen und ins Internet zu stellen; ein Twitter-, Facebook- oder Google+-Account, um dich mit anderen Lernenden auch in diesen Umgebungen zu vernetzen. Die iversity Plattform Für grundsätzliche Fragen zur Plattform finden Sie hier die FAQs. Follow us! 1) Facebook: http://www.facebook.com/mathemooc 2) Twitter: http://twitter.com/mathemooc 3) Mathe-MOOC-Macher-Blog: http://mathemooc.de 4) Beispielkapitel: http://testkapitel.mathemooc.de/ 5) Hilf uns beim Entwickeln des Mathe-MOOCS! Beantworte vorab die Online-Umfrage: http://kreidezeit.polldaddy.com/s/mathe-mooc-deine-hilfe Enrol for free Enrol with Facebook', 'https://iversity.org/courses/mathe-mooc-mathematisch-denken', 'https://www.youtube.com/embed/yvGBOVw6bTU?&showinfo=0&wmode=transparent&autohide=1&fs=1&rel=0', '2014-04-14', 0, 'https://d1wshrh2fwv7ib.cloudfront.net/courses/db29717f-9bdb-4492-8eca-e35611301f16/medium_79476420.jpg', 'Mathematics', 'iversity.org', 0, 'German', 'no', 'Pädagogische Hochschule Heidelberg', '2014-04-04 09:53:44'),
 (94, 'Einführung in die Wahrscheinlichkeitsrechnung', 'Wieso hat uns Jakob Bernoulli das Glücksspiel neu erklärt? Was haben Fische mit Wahrscheinlichkeiten zu tun? Wann sind Drogenfahnder erfolgreich? Wer wissen will, wie man bei solchen Fragen zu guten Antworten gelangt, ist bei diesem MOOC genau richtig.', 'Ganz gleich in welcher Wissenschaftsdisziplin, Statistik ist das Schweizer Armeemesser für die Behandlung von vielen Zahlen – um daraus wenige Zahlen zu machen. Das klingt unspektakulär, hat aber schon so manchen Studierenden der Human-, Wirtschafts- und Naturwissenschaften an den Rand der Verzweiflung geführt. Dabei ist Statistik überall, in den alltäglichsten Situationen und den komplexesten Forschungsfragen. In dieser Einführung kümmern wir uns um das Fundament der Statistik, die Wahrscheinlichkeitstheorie. Das klingt schlimm, ist es aber nicht. Wir erfahren etwas über die männliche Sicht weiblichen Intellekts, antike Cassettenhüllen, gezinkte Würfel, Milchreis, Hochrisiko-Sportfeste und vieles mehr, das uns den Einstieg in die Welt der Wahrscheinlichkeit so leicht macht als sei die Statistik auf eine strenge Diät gegangen. Kursstruktur Der Kurs deckt ein halbes Semester Grundstudiumsstatistik für Nicht-Mathematiker ab und besteht aus sechs Lerneinheiten mit jeweils 90 Minuten Lernvideos. Diese Videos sind das zentrale Lernelement des Kurses und werden durch Anwendungsbeispiele in Microsoft Excel unterstützt. Zusätzlich kannst Du bei jedem Video Deinen Lernfortschritt über Quizfragen testen. Am Ende jeder Lerneinheit steht oft eine größere Übungsaufgabe, deren Lösung Dir per Video vermittelt wird. Lernergebnisse Am Ende des Kurses wirst Du die grundlegenden formalen Elemente der Wahrscheinlichkeit kennen. Du wirst verstanden haben, was sich Pierre Simon Laplace und Nikolaj Kolmogoroff unter dem Begriff Wahrscheinlichkeit vorgestellt haben. Du wirst mit bedingten Wahrscheinlichkeiten und dem Satz von Bayes umgehen können. Und schließlich wirst Du Dich in vielen Wahrscheinlichkeitsverteilungen zurechtfinden wie der Binomialverteilung, der Poissonverteilung, der hypergeometrischen Verteilung und der Normalverteilung. Vorkenntnisse Alles, was Du zum Genuss der Wahrscheinlichkeitstheorie brauchst, lernst Du hier. Du brauchst keine besonderen Vorkenntnisse, denn mehr als Plus, Minus, Mal und Geteilt wird hier kaum gerechnet. Versprochen! Also schau vorbei und lern mit uns die Statistik von einer ganz neuen Seite kennen. FAQ Für grundsätzliche Fragen findest du hier die FAQs. Enrol for free Enrol with Facebook Related Courses Algorithmen und Datenstrukturen Prof. Dr. Oliver Vornberger, Nils Haldenwang, and Nicolas Neubauer Universität Osnabrück  Mathe-MOOC: Mathematisch denken! Prof. Dr. Christian Spannagel, Dr. Michael Gieding, Dr. phil. habil. Martin Lindner, and Lutz Berger Pädagogische Hochschule Heidelberg  Monte Carlo Methods in Finance Prof. Dr. Alberto Suárez Universidad Autónoma de Madrid', 'https://iversity.org/courses/einfuehrung-in-die-wahrscheinlichkeitsrechnung', 'https://www.youtube.com/embed/TUNsFX_R5F4?&showinfo=0&wmode=transparent&autohide=1&fs=1&rel=0', '2014-01-06', 0, 'https://d1wshrh2fwv7ib.cloudfront.net/courses/6955d282-f26b-44d0-8b13-0b8105490937/medium_79500920.jpg', 'Statistics & Data Analysis', 'iversity.org', 0, 'German', 'no', 'Johannes Gutenberg-Universität Mainz', '2014-04-04 09:53:45'),
 (95, 'Grundlagen des Marketing', 'Dieser Kurs vermittelt die Grundzüge des Marketing und gibt einen Überblick hinsichtlich der entsprechenden Konzepte, Strategien und Werkzeuge. Im Zentrum des Kurses stehen vier Themenbereiche: Produkt-, Kommunikations-, Preis- und Distributionspolitik.', 'Was ist Marketing? Marketing ist eine zentrale Funktion, die mit allen Unternehmensbereichen verknüpft ist. Ohne Marketing funktioniert gar nichts. Nur, wer den Kunden versteht und weiß, wie er denkt, kann auch die richtigen Produkte produzieren und verkaufen. Marketing geht jeden etwas an – ob Ingenieure (Produktpolitik), Werber & PR-Leute (Kommunikationspolitik), Controller (Preispolitik) oder Verkaufsmanager (Distributionspolitik)! Aber was ist Marketing eigentlich? Viele Laien setzen Marketing mit „Werbung“ gleich. In der Unternehmenspraxis dagegen ist Marketing (vom englischen „market“ für Markt bzw. vermarkten) eng mit der Markt- und Unternehmensstrategie verknüpft und umfasst mehrere Facetten: Zunächst versteht man heute unter dem Marketing eines Unternehmens alle marktbezogenen Aktivitäten gegenüber den (potenziellen) Kunden sowie den Aufbau und Erhalt von Kundenbeziehungen. Marketing beschränkt sich somit nicht nur auf die Bereiche Verkauf und Werbung, sondern umfasst eine Vielzahl an Aktivitäten, u.a. die systematische Informationsgewinnung über Märkte oder die Gestaltung des Produktangebots, die Preissetzung, die Kommunikation und den Vertrieb. Aus unternehmensinterner Sicht müssen außerdem die Voraussetzungen geschaffen werden, damit marktbezogene Aktivitäten effizient umgesetzt werden können. Dies wird insbesondere durch die Führung des gesamten Unternehmens nach der Leitidee der Marktorientierung erreicht. Marketing wird folglich auch als gedankliche Leitlinie für unternehmerische Entscheidungen verstanden und stellt eine zentrale betriebswirtschaftliche Funktion innerhalb eines marktorientierten Unternehmens dar. Von den Grundlagen zur Distribution Folgende Themen werden im Kurs behandelt: Marketing - Philosophie und Grundlagen Der Marketing-Management-Prozess als Rahmenwerk Das Marketing-Umfeld analysieren: Märkte, Konsumenten und Wettbewerber als Fokus der Marktforschung Marketing-Strategie: Marktsegmentierung und Wettbewerbsstrategien Produktpolitik - das Herz des Marketing Kommunikationspolitik - Marketing ist mehr als Werbung! Preispolitik - Strategien und Konzepte zur Steigerung der Unternehmensprofitabilität Distributionspolitik - Produkte und Dienstleistungen zum Kunden bringen Der Kurs beginnt am 15. Oktober 2013 und endet, unterbrochen von einer kurzen Pause über die Weihnachtsferien, am 15. Januar 2014. Lernziele Sie sind in der Lage, verschiedene Formen und Aufgaben des Marketings zu unterscheiden und relevante Marktforschungsfelder zu bestimmen. Mittels betriebswirtschaftlicher Werkzeuge können Sie Kaufentscheidungsprozesse analysieren und diese Erkenntnisse für die Produktentwicklung und für Marketing-Prozesse nutzen. Sie sind in der Lage, wichtige Marketing-Strategien zu identifizieren und zielorientiert anzuwenden. Durch die Anwendung theoretischer Modelle können Sie Produktneuentwicklungen in verschiedene Phasen unterteilen und auf diese Weise organisieren. Sie sind in der Lage, die zentralen Dimensionen des Marketings (die sog. “4 Ps” Produkt-, Preis-, Distributions- und Kommunikationspolitik) zu unterscheiden und für Marketing-Prozesse zu nutzen. Kursformat Über die Laufzeit des Kurses werden Video-Lectures angeboten, welche die Inhalte auf anschauliche Weise vermitteln. Darüber hinaus setzen viele Aspekte des Marketing Kommunikationsfähigkeit und Teamarbeit voraus. Dies wird in diesem Kurs mit Foren und Peer-Review-Aufgaben realisiert. Vorkenntnisse Für diesen Einführungskurs in das Marketing ist kein spezifisches Vorwissen notwendig. Aufgrund der systematischen Vorgehensweise und zunehmenden Vertiefung werden die Teilnehmenden in alle relevanten Inhalte eingeführt. Grundlegende Fertigkeiten im Umgang mit dem Computer sind für die Kursteilnahme von Vorteil. Zertifizierung Bei erfolgreichem Abschluss des Online-Kurses bekommen Sie ein Teilnahmezertifikat (Onlineprüfung). Wenn Sie statt der Online-Prüfung eine Präsenzprüfung erfolgreich absolvieren erhalten Sie statt des Teilnahmezertifikates eine Urkunde über das Äquivalent von 5 ECTS-Punkten der Fachhochschule Lübeck. Mittels problemlösungsorientierter Aufgaben sowie durch die Bearbeitung von Fallstudien und diversen Quizzes festigen Sie das neu erworbene Wissen und erwerben die notwendigen Kompetenzen, um es auf konkrete Herausforderungen anwenden zu können. Ein zentraler Aspekt hierbei bildet das Peer-Review. Durch das Beurteilen von Lösungswegen anderer TeilnehmerInnen lernen Sie dabei, betriebswissenschaftlichen Herausforderungen aus verschiedenen Perspektiven zu begegnen. FAQ Für grundsätzliche Fragen zur Plattform finden Sie hier die FAQs. Enrol for free Enrol with Facebook Related Courses The DO School Start-Up Lab Romy Kraemer, Florian Hoffmann, Katherin Kirschenmann, Dr. Mei Wang, and Rouven Steinfeld The DO School  Einführung in die Betriebswirtschaftslehre Prof. Frank Piller and Michael Engel RWTH Aachen  Changemaker MOOC - Social Entrepreneurship Prof. Dr. Christoph Corves and Dr. Linda Kleemann Universität Kiel', 'https://iversity.org/courses/grundlagen-des-marketing', 'https://www.youtube.com/embed/BoioKFeNKt8?&showinfo=0&wmode=transparent&autohide=1&fs=1&rel=0', '2013-10-15', 0, 'https://d1wshrh2fwv7ib.cloudfront.net/courses/e9dee134-0d3b-4cbe-be89-be194a629205/medium_79478720.jpg', 'Economics', 'iversity.org', 0, 'German', 'no', 'Fachhochschule Lübeck', '2014-04-04 09:53:46');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `sjsucsor_160s5g12014s`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `coursedetails`
+--
+
+CREATE TABLE IF NOT EXISTS `coursedetails` (
+  `id` int(4) NOT NULL,
+  `profname` varchar(30) NOT NULL,
+  `profimage` text NOT NULL,
+  `course_id` int(5) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `course_id` (`course_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `coursedetails`
+--
+
+INSERT INTO `coursedetails` (`id`, `profname`, `profimage`, `course_id`) VALUES
+(0, 'Prof. Oliver Szasz', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1021269/thumb_270_prof.oliver_szasz.jpg', 65),
+(1, 'Prof. Juergen Faust', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1084300/thumb_270_Juergen_Faust_iversity.jpg', 65),
+(2, 'Prof. Tanja Schmitt-Fumian', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1037752/thumb_270_Prof_Tanja-Schmitt-Fumian_auf_MHMK-Cube_1_.jpg', 65),
+(3, 'Silvio Barta', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040065/thumb_270_5K0K4422-2.jpg', 65),
+(4, 'Astrid Thomaser', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1035871/thumb_270_a_thomaser_3.jpg', 65),
+(5, 'Dipl. Des. Thomas Stegmann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/694644/thumb_270_tomBW.jpg', 65),
+(6, 'Oliver T. Hellriegel', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040071/thumb_270_20081114-OLIVER_HELLRIEGEL2778_SMALL.jpg', 65),
+(7, 'Gary York', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040089/thumb_270_pic1.png', 65),
+(8, 'Bret Sheridan', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040095/thumb_270_bret-sheridan.jpg', 65),
+(9, 'Johann Knott', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040092/thumb_270_johann_knott.jpg', 65),
+(10, 'Prof. Lars Grau', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040101/thumb_270_Lars_grau.jpg', 65),
+(11, 'Prof. Egbert van Wyngaarden', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1039909/thumb_270_JW8A8641_grey.jpg', 65),
+(12, 'Paul Neevoort', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040113/thumb_270_paul_neervoort.jpg', 65),
+(13, 'Prof. Dr. Alyosh Agarwal', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1040104/thumb_270_Prof_Dr_Agarwal_Photo.jpg', 65),
+(14, 'Prof. Dr. Barbara Stelzner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1034728/thumb_270_JW8A9709BW.jpg', 65),
+(15, '-Prof. Dr.-Ing. Martin Meywerk', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5466/thumb_270_Meywerk_05.jpg', 66),
+(16, 'Prof. Dr. Jan Wouters', 'https://d1wshrh2fwv7ib.cloudfront.net/users/142/thumb_270_Foto_Prof_Wouters.jpg', 67),
+(17, 'Prof. Dr. Anna Triandafyllidou', 'https://d1wshrh2fwv7ib.cloudfront.net/users/143/thumb_270_Anna_Triandafyllidou.jpg', 67),
+(18, 'Prof. Marise Cremona', 'https://d1wshrh2fwv7ib.cloudfront.net/users/144/thumb_270_cremona.jpg', 67),
+(19, 'Prof. Dr. Christoph Herrmann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/141/thumb_270_Foto_Prof_Herrmann.jpg', 67),
+(20, 'Dr. Joris Larik', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2584/thumb_270_Foto_Joris_Conference.jpg', 67),
+(21, 'Prof. Dr.-Ing. Georg Fries', 'https://d1wshrh2fwv7ib.cloudfront.net/users/870/thumb_270_schorsch.jpg', 68),
+(22, 'Prof. Dr. Peter Dannenmann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1099/thumb_270_Dannemann.jpg', 68),
+(23, 'Prof. Dr. Karin Graeslund', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5815/thumb_270_cd_2625.jpg', 68),
+(24, 'Prof. Dr.-Ing. Patrick Metzler', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1724/thumb_270_Metzeler2.jpg', 68),
+(25, 'Prof. Dr. Michael Schmidt', 'https://d1wshrh2fwv7ib.cloudfront.net/users/7809/thumb_270_M.Schmidt_-_komprimiert.JPG', 68),
+(26, 'Prof. Dr. Andreas Zinnen', 'https://d1wshrh2fwv7ib.cloudfront.net/users/27818/thumb_270_mooc.jpg', 68),
+(27, 'Dipl.-Päd. Robert Hörhammer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/964/thumb_270_Robert_Hoerhammer.jpg', 68),
+(28, 'Production Team', 'https://d1wshrh2fwv7ib.cloudfront.net/users/808812/thumb_270_PTeam_270_color.jpg', 68),
+(29, 'Dr. Frank Hoffmann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/138/thumb_270_Hoffmann.jpg', 69),
+(30, 'Dipl.-Chem. Michael Sartor', 'https://d1wshrh2fwv7ib.cloudfront.net/users/139/thumb_270_sartor.jpg', 69),
+(31, 'Prof. Dr. Michael Fröba', 'https://d1wshrh2fwv7ib.cloudfront.net/users/140/thumb_270_froeba.jpg', 69),
+(32, 'Victor Manrique', 'https://d1wshrh2fwv7ib.cloudfront.net/users/357380/thumb_270_victor.jpg', 70),
+(33, 'Isidro Rodrigo', 'https://d1wshrh2fwv7ib.cloudfront.net/users/410126/thumb_270_Foto.jpg', 70),
+(34, 'Dr. Oscar Garcia-Panella', 'https://d1wshrh2fwv7ib.cloudfront.net/users/783999/thumb_270_true_friends.jpg', 70),
+(35, 'emiliano labrador', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1059892/thumb_270_cerca_pq.jpg', 70),
+(36, 'Montecarlo -', 'https://d1wshrh2fwv7ib.cloudfront.net/users/457190/thumb_270_Montecarlo.jpg', 70),
+(37, 'Andrzej Marczewski', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1059190/thumb_270_186197_582507618_481772499_n.jpg', 70),
+(38, 'Dr. Flavio Escribano', 'https://d1wshrh2fwv7ib.cloudfront.net/users/804972/thumb_270_392289_10150486448823701_577346158_n.jpg', 70),
+(39, 'Cristina Pagés', 'https://d1wshrh2fwv7ib.cloudfront.net/users/801807/thumb_270_cristina_pages.jpg', 70),
+(40, 'Yannick Sampedro', 'https://d1wshrh2fwv7ib.cloudfront.net/users/694317/thumb_270_test3.jpg', 70),
+(41, 'at. habil. Susanne Illenberger', 'https://d1wshrh2fwv7ib.cloudfront.net/users/147/thumb_270_illenberger.jpg', 71),
+(42, 'Professor Sebastian Springer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/781293/thumb_270_9c96052bdb4cbaa47b_l_9db7b.jpg', 71),
+(43, 'Dr. rer. nat. Nicole Kühl', 'https://d1wshrh2fwv7ib.cloudfront.net/users/718035/thumb_270_DE_Kontakt__ber_InCelligence_NK.jpg', 71),
+(44, 'Romy Kraemer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5911/thumb_270_TheDOSchool_TEAM_Romy_Kraemer_240.jpg', 72),
+(45, 'Florian Hoffmann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5904/thumb_270_TheDOSchool_Florian_Hoffmann.jpg', 72),
+(46, 'Katherin Kirschenmann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5906/thumb_270_TheDOSchool_Katherin_Kirschenmann.jpg', 72),
+(47, 'Dr. Mei Wang', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5979/thumb_270_TheDOSchool_TEAM_Mei_Wang_240.jpg', 72),
+(48, 'Rouven Steinfeld', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5981/thumb_270_TheDOSchool_TEAM_Rouven_Ramon_Steinfeld_240.jpg', 72),
+(49, '-Prof. Dr.-Ing. Martin Meywerk', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5466/thumb_270_Meywerk_05.jpg', 73),
+(50, '-Prof. Dr.-Ing. Martin Meywerk', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5466/thumb_270_Meywerk_05.jpg', 74),
+(51, 'Prof. Dr. Alberto Suárez', 'https://d1wshrh2fwv7ib.cloudfront.net/users/124/thumb_270_Suarez737.jpg', 75),
+(52, 'Prof. Paolo Salucci', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5752/thumb_270_Paolo_Salucci.JPG', 76),
+(53, 'of. Dr. Klaus Quibeldey-Cirkel', 'https://d1wshrh2fwv7ib.cloudfront.net/users/167/thumb_270_KQC.png', 77),
+(54, 'Christoph Thelen', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1877/thumb_270_Thelen.png', 77),
+(55, 'Paul-Christian Volkmer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5151/thumb_270_Image-0001.png', 77),
+(56, 'Andreas Gärtner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2153/thumb_270_iversity-profilbild.jpg', 77),
+(57, 'Daniel Gerhardt', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2152/thumb_270_Portrait_DG_gray.png', 77),
+(58, 'Shumkov PhD  Illac Angelo Diaz', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2389/thumb_270_Ivan-Shumkov_s.jpg', 78),
+(59, 'e Institute for Global Justice', 'https://d1wshrh2fwv7ib.cloudfront.net/users/9029/thumb_270_Anja_Mihr_Highres.jpg', 79),
+(60, 'Stefano Mirti', 'https://d1wshrh2fwv7ib.cloudfront.net/users/148/thumb_270_Stefano.jpg', 80),
+(61, 'Anne-Sophie Gauvin', 'https://d1wshrh2fwv7ib.cloudfront.net/users/186/thumb_270_Anne-Sophie.jpg', 80),
+(62, 'Giulia San Gregorio', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2425/thumb_270_273550_506105731_1644234_n.jpg', 80),
+(63, 'Dott. Lucia Giuliano', 'https://d1wshrh2fwv7ib.cloudfront.net/users/150/thumb_270_Lucia.jpg', 80),
+(64, 'Prof. Giovanni Pasca Raymondi', 'https://d1wshrh2fwv7ib.cloudfront.net/users/149/thumb_270_Giovanni.jpg', 80),
+(65, 'Prof. Ivan R. Shumkov PhD', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2389/thumb_270_Ivan-Shumkov_s.jpg', 81),
+(66, 'Prof. Dr. Furio Cerutti', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5751/thumb_270_IMG_1717.JPG', 82),
+(67, 'Christina Maria Schollerer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/123/thumb_270_ChrisSchollerer.jpg', 83),
+(68, 'Prof. Winfried Gerling', 'https://d1wshrh2fwv7ib.cloudfront.net/users/121/thumb_270_WinfriedGerlon.jpg', 83),
+(69, 'Prof. Constanze Langer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/122/thumb_270_ConstanzeLanger.jpg', 83),
+(70, 'Julian van Dieken', 'https://d1wshrh2fwv7ib.cloudfront.net/users/120/thumb_270_Julian_van_Dieken_-_Vimeo_300x300.jpg', 83),
+(71, 'Prof. Dr. Oliver Vornberger', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2624/thumb_270_oliver-vornberger-600-800.jpg', 84),
+(72, 'Nils Haldenwang', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5712/thumb_270_Avatar.jpg', 84),
+(73, 'Nicolas Neubauer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2675/thumb_270_HemdGut1Web1zu1.jpeg', 84),
+(74, 'Prof. Dr. Christian Spannagel', 'https://d1wshrh2fwv7ib.cloudfront.net/users/126/thumb_270_spannagel.jpg', 85),
+(75, 'r. phil. habil. Martin Lindner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/129/thumb_270_martin_bayer2011.JPG', 85),
+(76, 'Dr. Michael Gieding', 'https://d1wshrh2fwv7ib.cloudfront.net/users/127/thumb_270_gieding.jpg', 85),
+(77, 'Lutz Berger', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2049/thumb_270_thumb_200_lutz_berger.jpg', 85),
+(78, 'Prof. Dr. Stephan Breidenbach', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1878/thumb_270_Foto_Stephan_Breidenbach_5868_-_Mai_2012_Ausserhofer__Mittel_.jpg', 86),
+(79, 'Prof. Dr. Gerald Hüther', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1059487/thumb_270_Gerald.jpg', 86),
+(80, 'Monia Ben Larbi', 'https://d1wshrh2fwv7ib.cloudfront.net/users/9744/thumb_270_monia5.JPG', 86),
+(81, 'Claudia Morten', 'https://d1wshrh2fwv7ib.cloudfront.net/users/657233/thumb_270_Bildschirmfoto_2013-11-14_um_10.10.37.png', 86),
+(82, 'Prof. Dr. Ralf Schlauderer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011627/thumb_270_schlauderer.jpg', 87),
+(83, 'Prof. Dr. Johannes Holzner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011603/thumb_270_holzner.jpg', 87),
+(84, 'Dr. Aram Aristakesyan', 'https://d1wshrh2fwv7ib.cloudfront.net/users/753/thumb_270_Aram_Aristakesyan.jpg', 87),
+(85, 'Christian Schuh', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011636/thumb_270_schuh.jpg', 87),
+(86, 'Thomas Dengler', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011645/thumb_270_dengler.jpg', 87),
+(87, 'Annette Schmid', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011660/thumb_270_schmid.jpg', 87),
+(88, 'Prof. Dr. Ralf Schlauderer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011627/thumb_270_schlauderer.jpg', 88),
+(89, 'Prof. Dr. Johannes Holzner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011603/thumb_270_holzner.jpg', 88),
+(90, 'Dr. Aram Aristakesyan', 'https://d1wshrh2fwv7ib.cloudfront.net/users/753/thumb_270_Aram_Aristakesyan.jpg', 88),
+(91, 'Christian Schuh', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011636/thumb_270_schuh.jpg', 88),
+(92, 'Thomas Dengler', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011645/thumb_270_dengler.jpg', 88),
+(93, 'Annette Schmid', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1011660/thumb_270_schmid.jpg', 88),
+(94, 'PD Dr. med. Bernhard Hirt', 'https://d1wshrh2fwv7ib.cloudfront.net/users/125/thumb_270_Hirt-Portrait.jpg', 89),
+(95, 'oph Corves  Dr. Linda Kleemann', 'https://d1wshrh2fwv7ib.cloudfront.net/users/151/thumb_270_corves.jpg', 90),
+(96, 'of. Dr. Klaus Quibeldey-Cirkel', 'https://d1wshrh2fwv7ib.cloudfront.net/users/167/thumb_270_KQC.png', 91),
+(97, 'Christoph Thelen', 'https://d1wshrh2fwv7ib.cloudfront.net/users/1877/thumb_270_Thelen.png', 91),
+(98, 'Paul-Christian Volkmer', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5151/thumb_270_Image-0001.png', 91),
+(99, 'Andreas Gärtner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2153/thumb_270_iversity-profilbild.jpg', 91),
+(100, 'Daniel Gerhardt', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2152/thumb_270_Portrait_DG_gray.png', 91),
+(101, 'f. Frank Piller  Michael Engel', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5923/thumb_270_Piller.jpg', 92),
+(102, 'Prof. Dr. Christian Spannagel', 'https://d1wshrh2fwv7ib.cloudfront.net/users/126/thumb_270_spannagel.jpg', 93),
+(103, 'Dr. Michael Gieding', 'https://d1wshrh2fwv7ib.cloudfront.net/users/129/thumb_270_martin_bayer2011.JPG', 93),
+(104, 'r. phil. habil. Martin Lindner', 'https://d1wshrh2fwv7ib.cloudfront.net/users/127/thumb_270_gieding.jpg', 93),
+(105, 'Lutz Berger', 'https://d1wshrh2fwv7ib.cloudfront.net/users/2049/thumb_270_thumb_200_lutz_berger.jpg', 93),
+(106, 'Dr. Malte Persike', 'https://d1wshrh2fwv7ib.cloudfront.net/users/8/thumb_270_thumb_200_pic_mpe_blurred.jpg', 94),
+(107, 'Prof. Dr. Marc Oliver Opresnik', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5799/thumb_270_Bild_Opresnik.jpg', 95),
+(108, 'Prof. Dr.-Ing. Rolf Granow', 'https://d1wshrh2fwv7ib.cloudfront.net/users/6353/thumb_270_prof_granow_550px.jpg', 95),
+(109, 'Andreas Wittke', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5507/thumb_270_bkk_mobil_oil_egk.jpg', 95),
+(110, 'Stefanie Herbst', 'https://d1wshrh2fwv7ib.cloudfront.net/users/5775/thumb_270_stefanie_01.jpg', 95),
+(111, 'Thomas Muschal', 'https://d1wshrh2fwv7ib.cloudfront.net/users/4367/thumb_270_Bild_05b.jpg', 95),
+(112, 'Gregor Huber', 'https://d1wshrh2fwv7ib.cloudfront.net/users/6017/thumb_270_gh_iversity.JPG', 95);
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `coursedetails`
+--
+ALTER TABLE `coursedetails`
+  ADD CONSTRAINT `coursedetails_ibfk_1` FOREIGN KEY (`course_id`) REFERENCES `course_data` (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
