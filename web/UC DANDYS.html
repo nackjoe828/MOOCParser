@@ -80,10 +80,15 @@
                     </div>
 
                     <div class="panel-body">
-                        <form id="search" method="get" name="search">
-                        	<input type="hidden" name="page" value="1">
-                            <input class="form-control" name="search" placeholder="Explore" type="input">
-                        </form>
+                      <form id="search" method="get" name="search">
+                      	<div class="input-group">
+                          <input type="hidden" name="page" value="1">
+                          <input class="form-control" name="search" placeholder="Explore" type="input">
+                          <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button">Go!</button>
+                          </span>
+                        </div>
+                      </form>
                     </div>
                 </div>
 
@@ -94,12 +99,36 @@
                     </div>
 
                     <div class="panel-body">
-                        
-                        <form id="filters" method="get" name="filters">
-                            <input name="filter" type="radio" value="Agricultural studies">Agricultural studies<br><input name="filter" type="radio" value="Architecture">Architecture<br><input name="filter" type="radio" value="Art">Art<br><input name="filter" type="radio" value="Biology">Biology<br><input name="filter" type="radio" value="Business">Business<br><input name="filter" type="radio" value="Chemistry">Chemistry<br><input name="filter" type="radio" value="Computer Science">Computer Science<br><input name="filter" type="radio" value="Economics">Economics<br><input name="filter" type="radio" value="Education">Education<br><input name="filter" type="radio" value="Engineering">Engineering<br><input name="filter" type="radio" value="Health">Health<br><input name="filter" type="radio" value="History">History<br><input name="filter" type="radio" value="Humanities">Humanities<br><input name="filter" type="radio" value="Interdisciplinary">Interdisciplinary<br><input name="filter" type="radio" value="Law">Law<br><input name="filter" type="radio" value="Literature">Literature<br><input name="filter" type="radio" value="Mathematics">Mathematics<br><input name="filter" type="radio" value="Medicine">Medicine<br><input name="filter" type="radio" value="Music">Music<br><input name="filter" type="radio" value="Other">Other<br><input name="filter" type="radio" value="Philosophy">Philosophy<br><input name="filter" type="radio" value="Physics">Physics<br><input name="filter" type="radio" value="Political Science">Political Science<br><input name="filter" type="radio" value="Science">Science<br><input name="filter" type="radio" value="Social Science">Social Science<br><input name="filter" type="radio" value="Statistics">Statistics<br><input name="filter" type="radio" value="Tech">Tech<br>                        	 <input type="hidden" name="page" value="1">
+                      <ul class="nav nav-tabs" id="filterTab">
+                        <li class="active"><a href="#category" data-toggle="tab"><small>Category</small></a></li>
+                        <li><a href="#mooc" data-toggle="tab"><small>MOOC</small></a></li>
+                      </ul>
+
+                      <div class="tab-content">
+                        <div class="tab-pane fade in active" id="category">
+                          <form id="filters" method="get" name="filters">
+                            <input name="filter" type="radio" value="Agricultural studies">Agricultural studies<br><input name="filter" type="radio" value="Architecture">Architecture<br><input name="filter" type="radio" value="Art">Art<br><input name="filter" type="radio" value="Biology">Biology<br><input name="filter" type="radio" value="Business">Business<br><input name="filter" type="radio" value="Chemistry">Chemistry<br><input name="filter" type="radio" value="Computer Science">Computer Science<br><input name="filter" type="radio" value="Economics">Economics<br><input name="filter" type="radio" value="Education">Education<br><input name="filter" type="radio" value="Engineering">Engineering<br><input name="filter" type="radio" value="Health">Health<br><input name="filter" type="radio" value="History">History<br><input name="filter" type="radio" value="Humanities">Humanities<br><input name="filter" type="radio" value="Interdisciplinary">Interdisciplinary<br><input name="filter" type="radio" value="Law">Law<br><input name="filter" type="radio" value="Literature">Literature<br><input name="filter" type="radio" value="Mathematics">Mathematics<br><input name="filter" type="radio" value="Medicine">Medicine<br><input name="filter" type="radio" value="Music">Music<br><input name="filter" type="radio" value="Other">Other<br><input name="filter" type="radio" value="Philosophy">Philosophy<br><input name="filter" type="radio" value="Physics">Physics<br><input name="filter" type="radio" value="Political Science">Political Science<br><input name="filter" type="radio" value="Science">Science<br><input name="filter" type="radio" value="Social Science">Social Science<br><input name="filter" type="radio" value="Statistics">Statistics<br><input name="filter" type="radio" value="Tech">Tech<br>                          <input type="hidden" name="page" value="1">
                              <button class="btn btn-primary" type="submit">Filter</button> 
-							 <button class="btn btn-default" name="clearfilters" type="submit">Clear</button>
-                        </form>
+               <button class="btn btn-default" name="clearfilters" type="submit">Clear</button>
+                          </form>
+                        </div>
+
+                        <div class="tab-pane fade" id="mooc">
+                          <form id="moocFilter" method="get" name="moocFilter">
+                            <input name="filter" type="radio" value="EDX">EDX<br>
+                            <input name="filter" type="radio" value="Coursera">Coursera<br>
+                            <input name="filter" type="radio" value="Iversity">Iversity<br>
+                            <input name="filter" type="radio" value="Canvas">Canvas<br>
+                            <input name="filter" type="radio" value="Udacity">Udacity<br>
+                            <input name="filter" type="radio" value="Open2Study">Open2Study<br>
+                            <input name="filter" type="radio" value="Future Learn">Future Learn<br>
+                            <input name="filter" type="radio" value="NovoEd">NovoEd<br>
+                            <input type="hidden" name="page" value="1">
+                            <button class="btn btn-primary" type="submit">Filter</button> 
+                            <button class="btn btn-default" name="clearfilters" type="submit">Clear</button>
+                          </form>
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
