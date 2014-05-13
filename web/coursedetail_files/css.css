@@ -1,0 +1,35 @@
+.rating_stars {
+	background: url('starblank.png') no-repeat;
+	float: left;
+	height: 28px;
+	padding: 2px;
+	width: 32px;
+}
+
+.norating_stars {
+	background: url('starblank.png') no-repeat;
+	float: left;
+	height: 28px;
+	padding: 2px;
+	width: 32px;
+}
+
+.rating_voted {
+	background: url('starvoted.png') no-repeat;
+}
+
+.rating_halfvoted {
+	background: url('starhalfvoted.png') no-repeat;
+}
+
+.rating_over {
+	background: url('starover.png') no-repeat;
+}
+
+.total_votes {
+	background: #FFFFFF;
+	top: 58px;
+	left: 0;
+	padding: 5px;
+	position: absolute;
+}
